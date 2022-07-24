@@ -1,0 +1,105 @@
+.article {
+    display: flex;
+    margin-top: 57px;
+}
+
+.left {
+    margin-right: 10px;
+     
+    &__source {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+
+        &--root {
+            margin-left: 10px;
+            font-family: 'Rubik';
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: #5E5F61;
+        }
+    }
+
+    &__heading {
+        margin-top: 30px;
+        margin-bottom: 20px;
+
+        &--link {
+            text-decoration: none;
+            font-family: 'Rubik';
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 36px;
+            color: #000000;
+        }
+    }
+
+    &__text {
+        margin-top: 24px;
+        margin-bottom: 0;
+        font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+    }
+
+    &__line {
+        width: 780px;
+        height: 0px;
+        margin-top: 50px;
+        margin-bottom: 60px;
+        border: 1px solid #D2D2D2;
+    }
+}
+
+.news2 {
+    padding: 20px 17px 0 17px;
+    width: 393px;
+    height: 502px;
+    background-color: $main-gray;
+    border-radius: 15px;
+    margin-bottom: 10px;
+
+    &__heading {
+        margin-top: 0;
+        margin-bottom: 25px;
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+    }
+
+    &__title {
+        margin-bottom: 8px;
+        text-decoration: none;
+        display: block;
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    &__source{
+        &:last-child {
+            margin-bottom: 25px;
+        }
+
+        &--link {
+            text-decoration: none;
+            font-family: 'Rubik';
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px;
+            color: #5E5F61;
+        }
+    }
+
+    &__line {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

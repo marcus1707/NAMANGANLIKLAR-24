@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/article.css">
+        <title>article</title>
+    </head>
+
+
+    <body>
+    
+        <!--Start of header-->
+        <header class="header">
+            <div class="container header__container">
+                <a href="index.html" class="header__link">
+                    <img
+                        class="header__logo"
+                        src="./images/logo.svg"
+                        alt="Logo"
+                        width="276"
+                        height="45"
+                    />
+                </a>
+                <div class="header__currencies">
+                    <div class="header__currency">
+                        <span class="header__icon">$</span>
+                        10950.23
+                        </div>
+                    <div class="header__currency">
+                        <span class="header__icon">P</span>
+                        450.12
+                    </div>
+                </div>
+                <form action="https://www.epl.com" class="header__form">
+                    <label class="header__label-search" for="search">
+                        <input
+                            class="header__search"
+                            type="search"
+                            id="search"
+                            name="search"
+                            placeholder="Поиск"
+                        />
+                    </label>
+                </form>
+                <form class="header__lang header__lang--active">
+                    <div class="header__wrapper">
+                        <input
+                            class="header__radio visually-hidden"
+                            type="radio"
+                            name="lang"
+                            id="uz"
+                        />
+                        <label class="header__lang-label" for="uz">UZ</label>
+                    </div>
+                    <div class="header__wrapper">
+                        <input
+                            class="header__radio visually-hidden"
+                            type="radio"
+                            name="lang"
+                            id="ru"
+                        />
+                        <label class="header__lang-label" for="ru">RU</label>
+                    </div>
+                </form>
+                <button class="header__login">Войти</button>
+            </div>
+        </header>
+        <!-- End of header -->
+
+        <!--Start of main-->
+        <main class="main container">
+            <nav class="nav">
+                <a class="nav__link" href="./index.html">Главное</a>
+                <a class="nav__link" href="./list.html">Интересное</a>
+                <a class="nav__link" href="#">Экономика</a>
+                <a class="nav__link" href="#">Политика</a>
+                <a class="nav__link" href="#">Общество</a>
+                <a class="nav__link" href="#">Технологии</a>
+                <a class="nav__link" href="#">Спорт</a>
+                <a class="nav__link" href="#">Культура</a>
+                <a class="nav__link" href="#">Происшествия</a>
+                <a class="nav__link" href="#">Наука</a>
+            </nav>
+            <!-- End of nav -->
+
+            <!--Start of article-->
+            <section class="article">
+                <div class="left">
+                    <a class="left__source" href="www.tesla.com">
+                        <img 
+                        class="left__source--icon" 
+                        src="./images/china_icon.svg" 
+                        alt="tesla icon"
+                        width="20"
+                        height="20"
+                        />
+                        <span class="left__source--root">
+                            FBM.ru 
+                            <time datetime="22:23">
+                                22:23
+                            </time>
+                        </span>
+                    </a>
+                    <h1 class="left_heading">
+                        <a class="left__heading--link" href="www.IlonMask.com">
+                            Илон Маск принял участие во Всемирной сетевой конференции в Китае
+                        </a>
+                    </h1>
+                    <img
+                        class="left__image"
+                        src="./images/teslaX.png"
+                        alt="tesla image"
+                        width="797px"
+                        height="300px"
+                        srcset="
+                            ./images/teslaX.png    1x,
+                            ./images/teslaX@2x.png 2x,
+                            ./images/teslaX@3x.png 3x
+                        "
+                    />
+                    <p class="left__text">
+                        Илон Маск (Elon Musk, Руководитель фирмы Tesla и других проектов) уже второй раз за полторы недели обратился к китайским правящим кругам и гражданам. В видеоролике он уверил их в своей готовности инвестировать средства в развитие и расширять бизнес на территории этой страны. Особое внимание будет уделяться небезопасности обрабатываемых данных. 
+                    </p>
+                    <p class="left__text">
+                        Они будут храниться только в самом Китае и поэтому будут доступны правительству Поднебесной в любой момент.
+                    </p>
+                    <p class="left__text">
+                        Новые заявления Илон Маск сделал во время видеообращения к аудитории мероприятия World Internet Conference, которое прошло в конце недели в Поднебесной. Компанию ему составили руководители Cisco Systems (Чак Роббинс), Intel (Пэт Гелсингер) и Qualcomm (Кристиано Амон), а интересы бизнеса Китайской Народной Республики представляли руководители Alibaba и Xiaomi. 
+                    </p>
+                    <p class="left__text">
+                        Открывал мероприятие Лю Хэ (Liu He, Вице-премьер Госсовета КНР), который привёл слова Си Цзиньпина (Xi Jinping) о стремлении Поднебесной работать со всеми державами над созданием прозрачной цифровой экономики.
+                    </p>
+                    <p class="left__text">
+                        В ближайшее время Tesla собирается не только сделать шире объёмы производства автомобилей на электрической тяге в шанхайском филиале, но и разработать силами местной студии недорогую модель электрического автомобиля (стоимостью менее 25 000 долларов).
+                    </p>
+                    <p class="left__text">
+                        Уже в настоящий момент собранные в Китайской Народной Республике электрокары Tesla Model Y и Model 3 поставляются на экспорт в Европу.
+                    </p>
+                    <hr class="left__line">
+                </div>
+                <div class="news__wrapper--right">
+                    <div class="news2">
+                        <h3 class="news2__heading">
+                            Главное
+                        </h3>
+                        <a class="news2__title" href="#">
+                            В Фергане создадут узбекско-пакистанский университет
+                        </a>
+                        <span class="news2__source">
+                            <a class="news2__source--link" href="#">
+                                Sputnik Узбекистан 14:09
+                            </a>
+                            <time datetime="14:09">
+                                14:09
+                            </time>
+                        </span>
+                        <hr class="news2__line">
+                        <a class="news2__title" href="#">
+                            В Фергане создадут узбекско-пакистанский университет
+                        </a>
+                        <span class="news2__source">
+                            <a class="news2__source--link" href="#">
+                                Sputnik Узбекистан 14:09
+                            </a>
+                            <time datetime="14:09">
+                                14:09
+                            </time>
+                        </span>
+                        <hr class="news2__line">
+                        <a class="news2__title" href="#">
+                            Узбекистан утвердил соглашение о содействии занятости в странах СНГ
+                        </a>
+                        <span class="news2__source">
+                            <a class="news2__source--link" href="#">
+                                ИА Красная Весна
+                            </a> 
+                            <time datetime="10:19">
+                                10:19
+                            </time>
+                        </span>
+                        <hr class="news2__line">
+                        <a class="news2__title" href="#">
+                            В Узбекистане увеличиваются очереди за автомобилями UzAuto
+                        </a>
+                        <span class="news2__source">
+                            <a class="news2__source--link" href="#">
+                                Северная газета (Армянск)
+                            </a>
+                            <time datetime="13:50">
+                                13:50
+                            </time>
+                        </span>
+                        <hr class="news2__line">
+                        <a class="news2__title">
+                            Минтуризма опровергло приостановку выплат за шаги
+                        </a>
+                        <span class="news2__source">
+                            <a class="news2__source--link" href="#">
+                                Sputnik Узбекистан 
+                            </a>
+                            <time datetime="14:32">
+                                14:32
+                            </time>
+                        </span>
+                    </div>
+                    <a class="news__advertising" href="www.olmosresidence.uz">
+                        <img 
+                        class="news__advertising" 
+                        src="./images/flat_ad.png"
+                        alt="flat ad img"
+                        width="393"
+                        height="338"
+                        srcset="
+                            ./images/flat_ad.png    1x,
+                            ./images/flat_ad@2x.png 2x,
+                            ./images/flat_ad@3x.png 3x
+                        "
+                    >
+                    </a>
+                </div>
+            </section>
+            <!--End of article-->
+            
+            <!--Start of news-->
+            <section class="interesting">
+                <a class="interesting__heading" href="www.pinterest.com">
+                    По вашим интересам
+                </a>
+                <div class="interesting__wrapper">
+                    <div class="interesting__box">
+                        <h4 class="interesting__box--title">
+                            <a class="interesting__box--title--link" href="#">
+                                Стали известны ёмкости <br> аккумуляторов всех моделей <br> iPhone 13
+                            </a>
+                        </h4>
+                        <p class="interesting__box--text">
+                            Во время презентации iPhone 13 Apple придала большое значения...
+                        </p>
+                        <div class="interesting__box--end">
+                            <img 
+                            class="interesting__box--end--icon" 
+                            src="./images/iphone_icon.svg" 
+                            alt="iphone icon image" 
+                            width="20" 
+                            height="20"
+                            />
+                            <span class="interesting__box--end--source">
+                                Digger.ru  
+                                <time class="time" datetime="14:25">
+                                    14:25
+                                </time>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="interesting__box">
+                        <h4 class="interesting__box--title">
+                            <a class="interesting__box--title--link" href="#">
+                                Nature: ученые смогли доказать природное происхождение коронавируса SARS-CoV-2
+                            </a>
+                        </h4>
+                        <p class="interesting__box--text">
+                            Во время презентации iPhone 13 Apple придала большое значение...
+                        </p>
+                        <div class="interesting__box--end">
+                            <img 
+                            class="interesting__box--end--icon" 
+                            src="./images/virus_icon.svg" 
+                            alt="virus icon image" 
+                            width="20" 
+                            height="20"
+                            />
+                            <span class="interesting__box--end--source">
+                                Тарантас Ньюс 
+                                <time class="time" datetime="10:54">
+                                    Lenta.ru 10:54
+                                </time>
+                            </span>
+                        </div>
+                    </div> <div class="interesting__box">
+                        <h4 class="interesting__box--title">
+                            <a class="interesting__box--title--link" href="#">
+                                Китайская марка JAC повысила <br> цены на лифтбек и пикап в <br> России
+                            </a>
+                        </h4>
+                        <p class="interesting__box--text">
+                            Две модели китайского бренда JAC из пяти, представленных на российском...
+                        </p>
+                        <div class="interesting__box--end">
+                            <img 
+                            class="interesting__box--end--icon" 
+                            src="./images/jac_icon.svg" 
+                            alt="jac icon image" 
+                            width="20" 
+                            height="20"
+                            />
+                            <span class="interesting__box--end--source">
+                                Тарантас Ньюс 10:44 
+                                <time class="time" datetime="10:44">
+                                10:44
+                                </time>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--End of main-->
+
+         <!--start of footer-->
+        <footer class="footer">
+            <a class="footer__heading" href="#">
+                NAMANGANLIKLAR 24
+            </a>
+            <div class="footer__box">
+                <p class="footer__box--text">
+                    Воспроизводство, копирование, <br>
+                    использование информации с сайта <br>
+                    «NAMANGANLIKLAR24.UZ» возможно <br>
+                    только с предварительного <br>
+                    письменного разрешения редакции.
+                </p>
+                <ul class="footer__menu1">
+                    <li class="footer__menu1--item">
+                        <a class="footer__menu1--link" href="#">
+                            Информация о сайте
+                        </a>
+                    </li>
+                    <li class="footer__menu1--item">
+                        <a class="footer__menu1--link" href="#">
+                            Напишите нам
+                        </a>
+                    </li>
+                    <li class="footer__menu1--item">
+                        <a class="footer__menu1--link" href="#">
+                            Реклама
+                        </a>
+                    </li>
+                    <li class="footer__menu1--item">
+                        <a class="footer__menu1--link" href="#">
+                            Прислать новость
+                        </a>
+                    </li>
+                </ul>
+                <ul class="footer__menu2">
+                    <li class="footer__menu2--item">
+                        <a class="footer__menu2--link" href="#">
+                            Использование материалов
+                        </a>
+                    </li>
+                    <li class="footer__menu2--item">
+                        <a class="footer__menu2--link" href="#">
+                            Темы дня
+                        </a>
+                    </li>
+                    <li class="footer__menu2--item">
+                        <a class="footer__menu2--link" href="#">
+                            Наша команда
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="footer__line">
+            <div class="footer__social">
+                <h4 class="footer__social--text">
+                    Наши <br> социальные сети
+                </h4>
+                <ul class="footer__social--media">
+                    <li class="footer__social--list">
+                        <a class="footer__social--link facebook" href="www.facebook.com">
+                            <img class="footer__social--icon" src="./images/facebook.svg" alt="facebook icon" width="25" height="25">
+                        </a>
+                    </li>
+                    <li class="footer__social--list">
+                        <a class="footer__social--link instagram" href="www.instagram.com">
+                            <img class="footer__social--icon" src="./images/instagram.svg" alt="instagram icon" width="25" height="25">
+                        </a>
+                    </li>
+                    <li class="footer__social--list">
+                        <a class="footer__social--link telegram" href="www.telegram.org">
+                            <img class="footer__social--icon" src="./images/telegram.svg" alt="telegram icon" width="25" height="25">
+                        </a>
+                    </li>
+                    <li class="footer__social--list">
+                        <a class="footer__social--link youtube" href="www.youtube.com">
+                            <img class="footer__social--icon" src="./images/youtube.svg" alt="youtube icon" width="25" height="25">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <!--End of footer-->
+
+    </body>
+
+
+</html>

@@ -1,0 +1,32 @@
+@use "./variables";
+@use "./vh";
+@use "./fonts";
+@use "./norm";
+
+
+// blocks
+@use "./blocks/list";
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  margin-top: 107px;
+  padding: 0;
+  font-family: "Rubik", "Arial", sans-serif;
+}
+.hero{
+  display: flex;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

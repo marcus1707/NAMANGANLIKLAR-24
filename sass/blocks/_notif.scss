@@ -1,0 +1,41 @@
+.notification {
+    width: 1050px;
+    height: 100px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../../images/notification_bg.png);
+    background-repeat: no-repeat;
+
+    &__title {
+        margin-left: 29px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        color: #000000;
+    }
+
+    &__button {
+        width: 149px;
+        height: 50px;
+        margin: 25px 71px 25px auto;
+        padding: 13px 30px;
+        background-color: #F78B3B;
+        border-radius: 10px;
+
+        &--link {
+            text-decoration: none;
+            font-family: 'Rubik';
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+
+            &:hover {
+                font-size: 150%;
+            }
+        }
+    }
+}

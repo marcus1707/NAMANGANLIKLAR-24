@@ -1,0 +1,131 @@
+@import "./../variables";
+
+.news {
+
+    &__heading {
+        margin-bottom: 20px;
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+    }
+
+    &__wrapper {
+        display: flex;
+
+        &--right {
+            margin-left: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+.news1 {
+    display: flex;
+    gap: 10px;
+    width: 797px;
+    height: 205px;
+    padding: 20px 20px 20px 17px;
+    background-color: $main-gray;
+    border-radius: 15px;
+
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    &__right {
+        margin-left: 15px;
+
+        &--link {
+            text-decoration: none;
+            font-family: 'Rubik';
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 26px;
+            color: #000000;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        &--text {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            font-family: 'Rubik';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #4A4B4C;
+        }
+
+        &--end {
+            display: flex;
+            align-items: center;
+        }
+
+        &--source {
+            margin-left: 10px;
+            font-family: 'Rubik';
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: #5E5F61;
+        }
+    }
+}
+
+.news2 {
+    padding: 20px 17px 0 17px;
+    width: 393px;
+    height: 502px;
+    background-color: $main-gray;
+    border-radius: 15px;
+    margin-bottom: 10px;
+
+    &__heading {
+        margin-top: 0;
+        margin-bottom: 25px;
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+    }
+
+    &__title {
+        margin-bottom: 8px;
+        text-decoration: none;
+        display: block;
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    &__source{
+        &:last-child {
+            margin-bottom: 25px;
+        }
+
+        &--link {
+            text-decoration: none;
+            font-family: 'Rubik';
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px;
+            color: #5E5F61;
+        }
+    }
+    
+    &__line {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 359px;
+        height: 0px;
+        border: 1px solid #D2D2D2;
+    }    
+}

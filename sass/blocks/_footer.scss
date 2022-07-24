@@ -1,0 +1,108 @@
+.footer {
+    width: 1440px;
+    height: 356px;
+    margin: 0 auto;
+    padding: 40px 221px;
+    background-color: #7297EF;
+
+    &__heading {
+        margin-bottom: 15px;
+        text-decoration: none;
+        font-family: 'Rubik';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    &__box {
+        display: flex;
+        justify-content: space-between;
+
+        &--text {
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+    }
+
+    &__menu1 {
+
+        &--item {
+            list-style-type: none;
+
+            &:not(:last-child) {
+                margin-bottom: 20px;
+            }
+        }
+
+        &--link {
+            text-decoration: none;
+            font-family: 'Rubik';
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+    }
+
+    &__menu2 {
+
+        &--item {
+            list-style-type: none;
+
+            &:not(:last-child) {
+                margin-bottom: 20px;
+            }
+        }
+
+        &--link {
+            text-decoration: none;
+            font-family: 'Rubik';
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+    }
+
+    &__line {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        width: 998px;
+        height: 1px;
+        background-color: #CECECE;
+    }
+
+    &__social {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+
+        &--text {
+            margin-top: 0;
+            margin-bottom: 0;
+            font-family: 'Rubik';
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 23px;
+            color: #FFFFFF;
+        }
+
+        &--media {
+            display: flex;
+            flex-flow: wrap row;
+        }
+
+        &--list {
+            list-style-type: none;
+
+            &:not(:last-child) {
+                margin-right: 25px;
+            }
+        }
+    }
+}
